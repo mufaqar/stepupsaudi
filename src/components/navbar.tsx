@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold">
               <Image
-                src="/images/Logo:stepup.png"
+                src="/images/logo.png"
                 width={200}
                 height={50}
                 alt="Logo"

@@ -26,16 +26,16 @@ function Footer() {
           <div className="mx-auto">
             <h2 className="text-[24px] font-[700] text-[#172735] text-center">Support Us</h2>
             <div className="grid grid-cols-4 gap-3 mt-3">
-              <Link href="/" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
+              <Link href="https://www.facebook.com/StepUp-225847192775973" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
                 <FaFacebook className="text-lg hover:text-white" />
               </Link>
-              <Link href="/" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
+              <Link href="https://twitter.com/SteupSf" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
                 <FaTwitter className="text-lg hover:text-white" />
               </Link>
-              <Link href="/" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
+              <Link href="https://www.youtube.com/channel/UCB5pr4E-tfYgNiOaGHbXl0Q" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
                 <FaYoutube className="text-lg hover:text-white" />
               </Link>
-              <Link href="/" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
+              <Link href="https://www.linkedin.com/company/stepup-teams/about/" className="bg-[#8EC63F] mx-auto px-2 py-2 rounded-full">
                 <FaLinkedin className="text-lg hover:text-white" />
               </Link>
             </div>
@@ -46,13 +46,13 @@ function Footer() {
             <Link href="/">
                 <span>Home</span>
             </Link>
-            <Link href="/">
+            <Link href="#goad">
                 <span>The Goal</span>
             </Link>
-            <Link href="/">
+            <Link href="#training">
                 <span>Training Initiatives</span>
             </Link>
-            <Link href="/">
+            <Link href="#work">
                 <span>How it works?</span>
             </Link>
           </div>

@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "STEP UP",
+  title: "Step Up | Transforming Students Into Professionals ",
   description: "Transforming Students Into Professionals",
 };
 

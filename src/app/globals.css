@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+body{
+    max-width: 1200p;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+    font-family:Axiforma ;
+    src: url(../app//fonts//Axiforma-Bold.woff);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family:Axiforma-Light ;
+    src: url(../app//fonts/Axiforma-Light.eot);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+    font-family:Montserrat ;
+    src: url(../app//fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+.Axiforma,h1,h2,h3,Link {
+    font-family: Axiforma;
+    
+}
+
+.Montserrat,p,span {
+    font-family: Montserrat;
+    
+
 }

@@ -79,7 +79,7 @@ function Footer() {
       {/* Footer Bottom Section */}
       <div className="max-w-[1200px] mx-auto w-full px-4 py-4">
         <div className="flex flex-col lg:flex-row justify-between items-center">
-          <p className="text-center lg:text-left">Copyright © 2021 stepup. All rights reserved.</p>
+          <p className="text-center lg:text-left">Copyright © 2021-2024 stepup. All rights reserved.</p>
           <div className="flex gap-4 text-center lg:text-right mt-4 lg:mt-0">
             <p>Terms & Conditions</p>
             <span>-</span>

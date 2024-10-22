@@ -46,7 +46,7 @@ const stepUpData = [
 ];
 function software() {
   return (
-    <section className="max-w-[1200px] mx-auto w-full px-4 mt-32 pb-32">
+    <section className="max-w-[1200px] mx-auto w-full px-4 mt-32 pb-32" id="training">
       <div>
         <h2 className="text-[#302E2E] text-[36px] font-[700] text-center">Software Development Initiative</h2>
         <p className='text-[16px] font-[500] text-center'>Practical Internship under leadership of experienced software engineers for following languages.</p>

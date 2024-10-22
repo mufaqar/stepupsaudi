@@ -2,7 +2,7 @@ import React from 'react';
 
 function Goal() {
   return (
-    <section className="bg-[#073E8F] max-w-[1200px] mx-auto rounded-xl p-6 md:p-10 px-4">
+    <section className="bg-[#073E8F] max-w-[1200px] mx-auto rounded-xl p-6 md:p-10 px-4" id="goal">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white px-4 ">
         {/* Left Section */}
         <div className='grid items-center'>

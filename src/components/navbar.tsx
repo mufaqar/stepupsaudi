@@ -29,18 +29,18 @@ const Navbar = () => {
             <Link href="/" className="hover:underline font-[500] ">
              <span>Home</span> 
             </Link>
-            <Link href="/goal" className="hover:underline font-[500]">
+            <Link href="#goal" className="hover:underline font-[500]">
              <span>The Goal</span> 
             </Link>
-            <Link href="/training" className="hover:underline font-[500]">
+            <Link href="#training" className="hover:underline font-[500]">
               <span>Training Initiatives</span>
             </Link>
-            <Link href="/how-it-works" className="hover:underline font-[500]">
+            <Link href="#how-it-works" className="hover:underline font-[500]">
               <span>How it works?</span>
             </Link>
 
             {/* Sign In Button */}
-            <Link href="/" className="hidden lg:block">
+            <Link href="#apply" className="hidden lg:block">
               <button className="flex justify-center items-center gap-2 bg-white text-[#073E8F] p-1 pl-5 rounded-full font-[500]">
                 APPLY NOW
                 <div className="bg-[#8ec63f] p-2 rounded-full">

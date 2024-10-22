@@ -21,7 +21,7 @@ const stepUpData = [
 
 function Step() {
   return (
-    <section className="max-w-[1200px] mx-auto w-full px-4 mt-32 pb-32">
+    <section className="max-w-[1200px] mx-auto w-full px-4 mt-32 pb-32" id="how-it-works">
       <div>
         <h2 className="text-[#302E2E] text-[32px] font-[600] text-center">STEP UP Initiatives</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">

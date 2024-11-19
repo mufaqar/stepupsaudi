@@ -12,16 +12,15 @@ function Hero() {
       <div className='max-w-[1200px] mx-auto w-full px-4'>
         <div className='grid grid-cols-1 md:grid-cols-2 h-auto md:h-[500px] items-center'>
          <div className='text-white md:text-left'>
-            <h1 className='text-[35px] md:text-[35px] font-[500] pb-4 md:pb-8'>
+            <h1 className='text-[35px] md:text-[35px] font-[500] pb-4 '>
               Transforming
               Students Into <br />
               Professionals 
             </h1>
             <TypingEffect />
             <p className='text-[16px] md:text-[16px] tracking-[2px] leading-7'>
-            Welcome to StepUp, a platform designed to bridge the gap between students and the professional world.
+                 Welcome to StepUp, a platform designed to bridge the gap between students and the professional world.
              </p>
-           
             <div className='pt-6  font-[Axiforma]'>
               <Link href='/'>
                 <button className='flex justify-center md:justify-start items-center gap-2 bg-white text-[#073E8F] p-2 pl-5 rounded-full font-[500]'>

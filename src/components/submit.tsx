@@ -48,9 +48,9 @@ function submit() {
 
         <p className='text-[18px]  text-white text-center pt-10 p-4'>StepUp is not just a platform; it’s a transformative movement aimed at turning students into professionals. Empower your future with the right tools, industry insights, and connections to succeed in today’s job market.</p>
 
-        <Link href="/" className="">
+        <Link href='https://getastepup.com/register' target='_blank'>
           <button className="flex justify-center mx-auto mt-8  items-center gap-2 bg-white text-[#073E8F] p-1 pl-5 rounded-full font-[500]">
-            Join Now
+          JOIN NOW
             <div className="bg-[#8ec63f] p-2 rounded-full">
               <FaArrowRight />
             </div>

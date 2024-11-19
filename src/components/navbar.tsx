@@ -37,7 +37,7 @@ const Navbar = () => {
             </Link>
           
             {/* Sign In Button */}
-            <Link href="#apply" className="hidden lg:block">
+            <Link href='https://getastepup.com/register' target='_blank' className="hidden lg:block">
               <button className="flex justify-center items-center gap-2 bg-white text-[#073E8F] p-1 pl-5 rounded-full font-[500]">
                 JOIN NOW
                 <div className="bg-[#8ec63f] p-2 rounded-full">

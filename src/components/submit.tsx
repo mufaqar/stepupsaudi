@@ -13,20 +13,20 @@ const stepUpData = [
   {
     id: 2,
     imageSrc: "/images/Required-Labs.jpg",
-    heading: "Learn with Purpose",
+    heading: "Connect and Grow",
     text: "Find mentors, engage with peers, and network with professionals who can guide and support you on your career journey."
   },
   {
     id: 3,
     imageSrc: "/images/Need-Sponsorship.jpg",
-    heading: "Learn with Purpose",
+    heading: "Take the Next Step",
     text: "Elevate your career with the resources, opportunities, and knowledge you need to thrive in the professional world."
   },
 ];
 
 function submit() {
   return (
-    <section className='bg-[#073E8F] py-10 mt-10'>
+    <section className='bg-[#073E8F] py-12 mt-10'>
       <div className='max-w-[1200px] mx-auto   px-4'>
         <h2 className='text-[30px] font-[600] text-white text-center'>Join the StepUp Initiative Today</h2>
         <p className='text-[18px]  text-white text-center p-4'>StepUp is not just a platform; it’s a transformative movement aimed at turning students into professionals. Empower your future with the right tools, industry insights, and connections to succeed in today’s job market.</p>
@@ -40,16 +40,16 @@ function submit() {
                 alt="Initiative Image"
                 className="w-full mx-auto rounded-t-xl"
               />
-              <h2 className="text-center text-[16px] font-[400] text-[#6F6F6F] py-8 px-2">{item.heading}</h2>
-              <p className="text-center text-[16px] font-[400] text-[#6F6F6F] py-8 px-2">{item.text}</p>
+              <h2 className="text-center text-[16px] font-[400] text-[#6F6F6F] py-6 px-4">{item.heading}</h2>
+              <p className="text-center text-[16px] font-[400] text-[#6F6F6F] pb-8 px-4">{item.text}</p>
             </div>
           ))}
         </div>
 
-        <p className='text-[18px]  text-white text-center py-10 p-4'>StepUp is not just a platform; it’s a transformative movement aimed at turning students into professionals. Empower your future with the right tools, industry insights, and connections to succeed in today’s job market.</p>
+        <p className='text-[18px]  text-white text-center pt-10 p-4'>StepUp is not just a platform; it’s a transformative movement aimed at turning students into professionals. Empower your future with the right tools, industry insights, and connections to succeed in today’s job market.</p>
 
         <Link href="/" className="">
-          <button className="flex justify-center mx-auto mt-14  items-center gap-2 bg-white text-[#073E8F] p-1 pl-5 rounded-full font-[500]">
+          <button className="flex justify-center mx-auto mt-8  items-center gap-2 bg-white text-[#073E8F] p-1 pl-5 rounded-full font-[500]">
             Join Now
             <div className="bg-[#8ec63f] p-2 rounded-full">
               <FaArrowRight />

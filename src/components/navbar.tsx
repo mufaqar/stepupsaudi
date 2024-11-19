@@ -35,10 +35,7 @@ const Navbar = () => {
             <Link href="#training" className="hover:underline font-[500]">
               <span>Training Initiatives</span>
             </Link>
-            <Link href="#how-it-works" className="hover:underline font-[500]">
-              <span>How it works?</span>
-            </Link>
-
+          
             {/* Sign In Button */}
             <Link href="#apply" className="hidden lg:block">
               <button className="flex justify-center items-center gap-2 bg-white text-[#073E8F] p-1 pl-5 rounded-full font-[500]">
@@ -107,9 +104,7 @@ const Navbar = () => {
             <Link href="/training" className="block text-white px-3 py-2 rounded-md text-base font-medium">
              <span> Training Initiatives</span>
             </Link>
-            <Link href="/how-it-works" className="block text-white px-3 py-2 rounded-md text-base font-medium">
-              <span>How it works?</span>
-            </Link>
+           
           </div>
         </div>
       )}

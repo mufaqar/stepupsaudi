@@ -17,12 +17,11 @@ function Hero() {
               Students Into <br />
               Professionals 
             </h1>
-           
-            
+            <TypingEffect />
             <p className='text-[16px] md:text-[16px] tracking-[2px] leading-7'>
             Welcome to StepUp, a platform designed to bridge the gap between students and the professional world.
              </p>
-             <TypingEffect />
+           
             <div className='pt-6  font-[Axiforma]'>
               <Link href='/'>
                 <button className='flex justify-center md:justify-start items-center gap-2 bg-white text-[#073E8F] p-2 pl-5 rounded-full font-[500]'>

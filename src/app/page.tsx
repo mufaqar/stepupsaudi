@@ -1,3 +1,4 @@
+
  import Navbar from "@/components/navbar";
 import Hero from '@/components/hero'
 import Fact from '@/components/Fact'
@@ -9,6 +10,7 @@ import Boarding from '@/components/Boarding'
 import Thegoal from "@/components/thegoal";
 import Submit from "@/components/submit";
 import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
     <>
@@ -18,11 +20,11 @@ export default function Home() {
     <Hero/>
     <Fact/>
     <Goal/>
-    <Step/>
-    <Enterprise/>
+    {/* <Step/> */}
+    {/* <Enterprise/>
     <Software/>
-    <Boarding/>
-    <Thegoal/>
+    <Boarding/> */}
+    {/* <Thegoal/> */}
     <Submit/>
     <Footer/>
 

@@ -6,7 +6,7 @@ function Goal() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white px-4 ">
         {/* Left Section */}
         <div className='grid items-center'>
-          <h2 className=" text-[32px] font-semibold">The Goal <br />of <br /> STEP UP</h2>
+          <h2 className=" text-[32px] font-semibold">The Goal <br />of <br /> STEPUP</h2>
           <h4 className="text-[#8EC63F] text-xl md:text-[2em] font-normal tracking-[3px] leading-[40px] py-6">Enabling <br />transformation</h4>
         </div>
 
@@ -15,13 +15,13 @@ function Goal() {
           <div>
             <span className="text-[#8EC63F] bg-white rounded-lg px-5 py-2 text-3xl">1</span>
             <div className="py-5 text-[16px]">
-              <p>Fill the gap between Educationist and Student by introducing Professional consultant.</p>
+              <p>Bridging the Gap Between Education and Employment</p>
             </div>
           </div>
           <div className="mt-5">
             <span className="text-[#8EC63F] bg-white rounded-lg px-5 py-2 text-3xl">3</span>
             <div className="py-5 text-[16px]">
-              <p>Help new graduates to choose the right IT domain.</p>
+              <p>Empowering Students to Make Informed Career Choices.</p>
             </div>
           </div>
         </div>
@@ -31,13 +31,13 @@ function Goal() {
           <div>
             <span className="text-[#8EC63F] bg-white rounded-lg px-5 py-2 text-3xl">2</span>
             <div className="py-5 text-[16px]">
-              <p>Offer training programs on real-time cases by linking with professional teammates.</p>
+              <p>Real-World Learning Through Industry Connections</p>
             </div>
           </div>
           <div className="mt-5">
             <span className="text-[#8EC63F] bg-white rounded-lg px-5 py-2 text-3xl">4</span>
             <div className="py-5 text-[16px]">
-              <p>Help graduates to find a job.</p>
+              <p>Creating Opportunities for Career Advancement</p>
             </div>
           </div>
         </div>

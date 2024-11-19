@@ -9,27 +9,14 @@ function Fact() {
           {/* Text Content */}
           <div>
             <h2 className="text-[2em] font-[600]">Fact</h2>
-            <h4 className="py-4 text-[1.2em] tracking-[1.5px] font-[600]">
-              As the technology changes all around us,
+            <h4 className="py-4 text-[1.2em] tracking-[1.5px] ">
+            Many students graduate with solid theoretical knowledge but lack the professional skills employers demand.
             </h4>
-            <p className="text-[1em] font-normal leading-[1.4em]">
-              Acquiring technical skills is what brings opportunities.
-            </p>
-            <br />
-            <p className="text-[1em] font-normal leading-[1.4em]">
-              But accruing such skills is not easy. 90% of the time, technology students require further training and certifications to find an appropriate job.
-            </p>
-            <br />
-            <p className="text-[1em] font-normal leading-[1.4em]">
-              Together with our experienced professional team in different areas of information technology, we have a vision to develop the workforce of the future.
-            </p>
-            <br />
-            <p className="text-[1em] font-normal leading-[1.4em]">
-              So join Step Up as we transform the student into a professional.
+            <p className="text-[1em] font-normal leading-[1.8em]">
+            This gap is felt across industries, leaving students unprepared for the job market. At StepUp, we’re dedicated to closing that gap by helping students not just learn, but gain hands-on experience and real-world skills. With industry insights, networking opportunities, and practical training, we guide students as they evolve into professionals ready to make an impact.
             </p>
           </div>
 
-          {/* Image Content */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
             <div>
             <div className="bg-white shadow-sm shadow-[] p-6 border-2 border-white rounded-xl lg:ml-7 ">
@@ -46,7 +33,7 @@ function Fact() {
             </div>
 
             <div className="bg-white shadow-sm shadow-[] p-6 border-2 border-white rounded-xl mt-10 lg:ml-7">
-              <h3 className="text-lg font-semibold text-[#565656]">Team</h3>
+              <h3 className="text-lg font-semibold text-[#565656]">Connect</h3>
               <div className="flex justify-end items-end">
                 <Image
                   src="/images/Team.png"
@@ -60,7 +47,7 @@ function Fact() {
             </div>
             <div>
             <div className="bg-white shadow-sm shadow-[] p-6 border-2 border-white rounded-xl mt-10 lg:ml-7">
-              <h3 className="text-lg font-semibold text-[#565656]">Technology</h3>
+              <h3 className="text-lg font-semibold text-[#565656]">Empower</h3>
               <div className="flex justify-end items-end">
                 <Image
                   src="/images/Technology.png"

@@ -6,19 +6,19 @@ import { FaArrowRight } from "react-icons/fa6";
 const stepUpData = [
   {
     id: 1,
-    imageSrc: "/images/Lack-of-office-space-.jpg",
+    imageSrc: "/images/purpose.png",
     heading: "Learn with Purpose",
     text: "Access specialized courses designed to make you job-ready and equip you with the skills employers are looking for."
   },
   {
     id: 2,
-    imageSrc: "/images/Required-Labs.jpg",
+    imageSrc: "/images/grow.png",
     heading: "Connect and Grow",
     text: "Find mentors, engage with peers, and network with professionals who can guide and support you on your career journey."
   },
   {
     id: 3,
-    imageSrc: "/images/Need-Sponsorship.jpg",
+    imageSrc: "/images/steps.png",
     heading: "Take the Next Step",
     text: "Elevate your career with the resources, opportunities, and knowledge you need to thrive in the professional world."
   },
@@ -35,10 +35,10 @@ function submit() {
             <div key={item.id} className="bg-white shadow-sm rounded-xl shadow-[] mt-5">
               <Image
                 src={item.imageSrc}
-                width={500}
-                height={500}
+                width={160}
+                height={160}
                 alt="Initiative Image"
-                className="w-full mx-auto rounded-t-xl"
+                className="mx-auto rounded-t-xl"
               />
               <h2 className="text-center text-[16px] font-[400] text-[#6F6F6F] py-6 px-4">{item.heading}</h2>
               <p className="text-center text-[16px] font-[400] text-[#6F6F6F] pb-8 px-4">{item.text}</p>

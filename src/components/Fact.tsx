@@ -50,7 +50,7 @@ function Fact() {
               <h3 className="text-lg font-semibold text-[#565656]">Empower</h3>
               <div className="flex justify-end items-end">
                 <Image
-                  src="/images/Technology.png"
+                  src="/images/empower.png"
                   width={500}
                   height={500}
                   alt="Hero Image"

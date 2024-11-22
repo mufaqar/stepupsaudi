@@ -11,7 +11,7 @@ function Hero() {
     <section className='bg-[#073E8F] pt-10'>
       <div className='max-w-[1200px] mx-auto w-full px-4'>
         <div className='grid grid-cols-1 md:grid-cols-3 h-auto md:h-[500px] items-center'>
-          <div className='text-white md:text-left col-span-2'>
+          <div className='text-white md:text-left md:col-span-2'>
             <h1 className='text-[35px] md:text-[35px] font-[500] pb-4 '>
               Transforming
               Students Into <br />

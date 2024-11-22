@@ -7,20 +7,20 @@ function Footer() {
   return (
     <section className="bg-[#EAF6FE] py-16">
       <div className="max-w-[1200px] mx-auto w-full px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-20">
           {/* Logo and tagline */}
-          <div>
+          <div className='md:col-span-2'>
             <Link href="/">
               <Image
                 src="/images/footer.logo.png"
                 width={250}
                 height={50}
                 alt="Logo"
-                className="w-40 h-auto"
+                className="w-40 h-auto mb-4"
               />
             </Link>
-            <p className="text-[14px] py-3">Transforming Students into Professionals</p>
-            <p className="text-[18px] text-center lg:text-left">Copyright © 2021-2024 stepup.<br/> All rights reserved.</p>
+            <p className="text-[16px] py-3">Transforming Students into Professionals</p>
+            <p className="text-[16px] text-center lg:text-left">Copyright © 2021-2024 Stepup. All rights reserved.</p>
           </div>
           
           

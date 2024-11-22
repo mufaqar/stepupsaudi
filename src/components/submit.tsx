@@ -32,13 +32,13 @@ function submit() {
         <p className='text-[18px]  text-white text-center p-4'>StepUp is not just a platform; it’s a transformative movement aimed at turning students into professionals. Empower your future with the right tools, industry insights, and connections to succeed in today’s job market.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-6">
           {stepUpData.map((item) => (
-            <div key={item.id} className="bg-white shadow-sm rounded-xl shadow-[] mt-5">
+            <div key={item.id} className="bg-white shadow-sm rounded-xl shadow-[] mt-5 pt-5">
               <Image
                 src={item.imageSrc}
-                width={160}
-                height={160}
+                width={120}
+                height={120}
                 alt="Initiative Image"
-                className="mx-auto rounded-t-xl"
+                className="mx-auto"
               />
               <h2 className="text-center text-[20px] font-semibold text-[#6F6F6F] py-4 px-4">{item.heading}</h2>
               <p className="text-center text-[16px] font-normal text-[#6F6F6F] pb-8 px-4">{item.text}</p>

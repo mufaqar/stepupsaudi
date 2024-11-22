@@ -9,9 +9,9 @@ function Fact() {
           {/* Text Content */}
           <div>
             <h2 className="text-[2em] font-[600]">Fact</h2>
-            <h4 className="py-4 text-[1.2em] tracking-[1.5px] ">
-            Many students graduate with solid theoretical knowledge but lack the professional skills employers demand.
-            </h4>
+           
+            <p className="text-[1em] font-normal leading-[1.8em] mb-4">
+            Many students graduate with solid theoretical knowledge but lack the professional skills employers demand. </p>
             <p className="text-[1em] font-normal leading-[1.8em]">
             This gap is felt across industries, leaving students unprepared for the job market. At StepUp, we’re dedicated to closing that gap by helping students not just learn, but gain hands-on experience and real-world skills. With industry insights, networking opportunities, and practical training, we guide students as they evolve into professionals ready to make an impact.
             </p>

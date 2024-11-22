@@ -7,7 +7,7 @@ export default function TypingEffect() {
     <h1 className="text-[36px] leading-normal capitalize text-[#8ec63f] font-[700] pb-6"> 
       <Typewriter
   options={{
-    strings: ['Discover | industry-focused courses', 'access expert-led podcasts',' explore universities and scholarships','and connect with peers for academic and career growth.',' StepUp empowers students to make informed decisions','acquire job-ready skills',' and collaborate meaningfully to build a successful future.'],
+    strings: ['Make informed decisions', 'Acquire job-ready skills','Industry-focused courses','Access expert-led podcasts','Explore universities and scholarships','Connect peers, grow careers','Collaborate for future success'],
     autoStart: true,
     loop: true,
   }}

@@ -40,8 +40,8 @@ function submit() {
                 alt="Initiative Image"
                 className="mx-auto rounded-t-xl"
               />
-              <h2 className="text-center text-[16px] font-[400] text-[#6F6F6F] py-6 px-4">{item.heading}</h2>
-              <p className="text-center text-[16px] font-[400] text-[#6F6F6F] pb-8 px-4">{item.text}</p>
+              <h2 className="text-center text-[20px] font-semibold text-[#6F6F6F] py-4 px-4">{item.heading}</h2>
+              <p className="text-center text-[16px] font-normal text-[#6F6F6F] pb-8 px-4">{item.text}</p>
             </div>
           ))}
         </div>

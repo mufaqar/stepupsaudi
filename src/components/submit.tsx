@@ -12,7 +12,7 @@ const stepUpData = [
   },
   {
     id: 2,
-    imageSrc: "/images/grow.png",
+    imageSrc: "/images/connect.png",
     heading: "Connect and Grow",
     text: "Find mentors, engage with peers, and network with professionals who can guide and support you on your career journey."
   },
